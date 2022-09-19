@@ -1,0 +1,108 @@
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    background-color: #242424;
+    color: white;
+    border: 2px solid #242424;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.container input{
+    height: 2rem;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.container h1{
+    opacity: 1;
+    font-size: 40px;
+}
+
+.content{
+    margin: 0 auto 0 auto;    
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    height: 10rem;
+    align-items: center;
+}
+
+.content-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-left h3,.content-right h3{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    padding: 20px;
+}
+
+.search input{
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search h2{
+    font-size: 36px;
+    left: 0;
+    margin-top: 20px;
+}
+
+.search p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.desc{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 img{
+    padding: 10px;
+}
